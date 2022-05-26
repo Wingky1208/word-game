@@ -17,9 +17,9 @@ var lettersInChosenWord = [];
 var blanksLetters = [];
 
 // Array of words the user will guess
-var words = ["audition", "create", "elevate", "eliminate", "engage", "entrance", "essential", "foremost", "forsake", "recognize", "sentimental", "source", "tour", "tradition", "trio", "abreast", "barrier", "breadth", "capital", "ensure", "external", "feud", "fortress", "frequent", "frontier", "peasant", "petty", "threat", "utilize", "vast"];
+var words = ["audition", "create", "elevate", "eliminate", "engage", "entrance", "essential", "foremost", "forsake", "recognize", "sentimental", "source", "tour", "tradition", "trio", "utilize", "vast", "external"];
 
-// The init function is called when the page loads 
+// The init function is called when the page loads
 function init() {
   getWins();
   getlosses();
@@ -188,3 +188,4 @@ function resetGame() {
 }
 // Attaches event listener to button
 resetButton.addEventListener("click", resetGame);
+
