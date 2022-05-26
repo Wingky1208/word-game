@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wordly Wise Word Game</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="large-font">Word Guess Game</div>
+    <button class="start-button">Start</button>
+  </header>
+
+  <main>
+    <section>
+      <div class="card word-guess">
+        <div class="large-font word-blanks">I _ e n _</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card results">
+        <div class="win-loss-container">
+          <div>
+            <h2><span class="material-symbols-outlined">
+                grade
+              </span>Wins: <span class="win">0 </span> </h2>
+            <h2><span class="material-symbols-outlined">
+                grade
+              </span>Losses: <span class="lose">0</span></h2>
+          </div>
+          <button class="reset-button">Reset Score</button>
+        </div>
+        <div class="card timer">
+          <div class="timer-text">
+            <div class="large-font timer-count">15</div>
+            <h3>seconds remaining</h3>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
